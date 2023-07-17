@@ -1,14 +1,9 @@
-import { FC } from 'react';
-import { Button } from '@/components/ui/button';
-
-interface HomeProps {}
-
-const HomePage: FC<HomeProps> = ({}) => {
+const SetupPage = () => {
     return (
-        <div>
-            <Button>Click Me</Button>
+        <div className="p-4">
+            this is a protected page
         </div>
     );
 };
 
-export default HomePage;
+export default SetupPage;
